@@ -3,9 +3,10 @@
 
 int main()
 {
-    std::string s = "Let's go to Kazakhstan";
-    std::cout << s <<"\n";
-    std::cout << s.length() << "\n";
-    std::cout << s[0] << "\n";
-    std::cout << s[s.length()-1] << "\n";
+    std::string s = "Konnichiwa";
+    std::cout << s << std::endl;
+    std::cout << s.length() << std::endl;
+    std::cout << s.substr(0,1) << std::endl;
+    std::cout << s.substr(s.length() - 1,1) << std::endl;
+    return 0;
 }
