@@ -6,7 +6,7 @@ int main()
     std::string s = "Konnichiwa";
     std::cout << s << std::endl;
     std::cout << s.length() << std::endl;
-    std::cout << s.substr(0,1) << std::endl;
-    std::cout << s.substr(s.length() - 1,1) << std::endl;
+    std::cout << s.front() << std::endl;
+    std::cout << s.back() << std::endl;
     return 0;
 }
